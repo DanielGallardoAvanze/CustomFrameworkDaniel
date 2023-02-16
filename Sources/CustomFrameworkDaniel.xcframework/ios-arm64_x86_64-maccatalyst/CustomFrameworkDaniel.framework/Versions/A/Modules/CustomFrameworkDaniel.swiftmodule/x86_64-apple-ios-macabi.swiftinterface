@@ -7,3 +7,7 @@ import Foundation
 import Swift
 import _Concurrency
 import _StringProcessing
+public struct SDK {
+  public static func configure(apikey: Swift.String)
+  public static func doSomeWork()
+}

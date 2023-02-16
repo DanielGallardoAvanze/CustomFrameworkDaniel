@@ -13,6 +13,68 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDK",
+        "printedName": "SDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apikey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21CustomFrameworkDaniel3SDKV9configure6apikeyySS_tFZ",
+            "mangledName": "$s21CustomFrameworkDaniel3SDKV9configure6apikeyySS_tFZ",
+            "moduleName": "CustomFrameworkDaniel",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "doSomeWork",
+            "printedName": "doSomeWork()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21CustomFrameworkDaniel3SDKV10doSomeWorkyyFZ",
+            "mangledName": "$s21CustomFrameworkDaniel3SDKV10doSomeWorkyyFZ",
+            "moduleName": "CustomFrameworkDaniel",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21CustomFrameworkDaniel3SDKV",
+        "mangledName": "$s21CustomFrameworkDaniel3SDKV",
+        "moduleName": "CustomFrameworkDaniel",
+        "declAttributes": [
+          "AccessControl"
+        ]
       }
     ],
     "json_format_version": 8
@@ -21,14 +83,14 @@
     {
       "filePath": "\/Users\/dgallardo\/Desktop\/FrameworkTest\/Framework\/CustomFrameworkDaniel\/CustomFrameworkDaniel\/SDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 169,
+      "offset": 176,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dgallardo\/Desktop\/FrameworkTest\/Framework\/CustomFrameworkDaniel\/CustomFrameworkDaniel\/SDK.swift",
       "kind": "Array",
-      "offset": 209,
+      "offset": 216,
       "length": 17,
       "value": "[\"privateKey123\"]"
     }
