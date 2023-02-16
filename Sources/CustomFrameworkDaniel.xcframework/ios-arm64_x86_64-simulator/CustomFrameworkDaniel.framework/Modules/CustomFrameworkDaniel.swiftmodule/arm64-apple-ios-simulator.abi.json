@@ -1,0 +1,36 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CustomFrameworkDaniel",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/dgallardo\/Desktop\/FrameworkTest\/Framework\/CustomFrameworkDaniel\/CustomFrameworkDaniel\/SDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 169,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dgallardo\/Desktop\/FrameworkTest\/Framework\/CustomFrameworkDaniel\/CustomFrameworkDaniel\/SDK.swift",
+      "kind": "Array",
+      "offset": 209,
+      "length": 17,
+      "value": "[\"privateKey123\"]"
+    }
+  ]
+}

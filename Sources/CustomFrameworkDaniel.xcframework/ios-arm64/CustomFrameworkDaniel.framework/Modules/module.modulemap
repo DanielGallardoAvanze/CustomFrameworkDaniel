@@ -1,0 +1,11 @@
+framework module CustomFrameworkDaniel {
+  umbrella header "CustomFrameworkDaniel.h"
+
+  export *
+  module * { export * }
+}
+
+module CustomFrameworkDaniel.Swift {
+  header "CustomFrameworkDaniel-Swift.h"
+  requires objc
+}
